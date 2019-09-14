@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class ClassInfo extends Model
 {
     public function subject(){
-       return $this->belongsToMany('App\ClassInfo');
+       return $this->belongsToMany('App\SubjectInfo');
     }
 }
