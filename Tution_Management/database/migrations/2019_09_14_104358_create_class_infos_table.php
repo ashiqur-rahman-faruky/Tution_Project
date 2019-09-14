@@ -17,6 +17,8 @@ class CreateClassInfosTable extends Migration
             $table->bigIncrements('id');
             $table->string('className');
 
+            
+
             $table->timestamps();
         });
     }

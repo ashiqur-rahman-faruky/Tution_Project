@@ -18,6 +18,8 @@ class CreateSubjectInfosTable extends Migration
             $table->string('subjectName');
             $table->unsignedBigInteger('class_id');
 
+            
+
             $table->foreign('class_id')->references('id')->on('class_infos');
             
 
